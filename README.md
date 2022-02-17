@@ -53,7 +53,6 @@ The list below shows some topics that were not implemented due to lack of time o
   - Create .py files to treat and send data from SOCIOS and ESTABELECIMENTOS zip files to the database**
 
 ** Since tuesday, the download files from the URL provided(https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj) are offline. This problem kept me from downloading and consequently treating the SOCIO and ESTABELECIMENTO files.
-I've uploaded on the repo, a .EMPRECSV file of EMPRESA to allow the inference of the code. 
 
 
 
