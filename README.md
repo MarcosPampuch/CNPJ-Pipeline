@@ -48,11 +48,12 @@ The versions used were:
 
 The list below shows some topics that were not implemented due to lack of time or URL connection error:
 
+  - Configure remote access to local server;
   - Send the data to a remote SQL database instead of a local one;
   - Create .py files to treat and send data from SOCIOS and ESTABELECIMENTOS zip files to the database**
 
 ** Since tuesday, the download files from the URL provided(https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj) are offline. This problem kept me from downloading and consequently treating the SOCIO and ESTABELECIMENTO files.
-I've uploaded on the repo, a .zip  with the first EMPRESA file to allow the inference of the code. 
+I've uploaded on the repo, a .EMPRECSV file of EMPRESA to allow the inference of the code. 
 
 
 
