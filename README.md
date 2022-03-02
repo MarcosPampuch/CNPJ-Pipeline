@@ -1,13 +1,11 @@
-# roit_exercise
+# CNPJ pipeline creation
 
-The exercise consisted on: create a pipeline to import files from the site "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj", treat them all and send to a database of choice.
+Project aiming the creation of a pipeline to import files from the site "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj", treat them all and send to a database of choice.
 
 # The Database
 
 The database chose was a MYSQL 8.0 local server hosted by my own computer.
 Due to the size of the file sent, an automated function to split and send the data in chunks was created (by defaut each chunk has 1000000 rows).
-
-The password to access the database is: "Pampuch".
 
 # FILE cnpj_empresas.py
 
@@ -44,12 +42,10 @@ The versions used were:
   - mysql-connector-python 2.2.9
   - pymysql 1.0.2
 
-## Incomplete work
+## Observations
 
-The list below shows some topics that were not implemented due to lack of time or URL connection error:
+The list below shows some topics that were not yet implemented:
 
-  - Configure remote access to local server;
-  - Send the data to a remote SQL database instead of a local one;
   - Create .py files to treat and send data from SOCIOS and ESTABELECIMENTOS zip files to the database**
 
 ** Since tuesday, the download files from the URL provided(https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj) are offline. This problem kept me from downloading and consequently treating the SOCIO and ESTABELECIMENTO files.
