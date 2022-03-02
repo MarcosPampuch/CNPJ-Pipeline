@@ -7,7 +7,7 @@ Project aiming the creation of a pipeline to import files from the site "https:/
 The database chose was a MYSQL 8.0 local server hosted by my own computer.
 Due to the size of the file sent, an automated function to split and send the data in chunks was created (by defaut each chunk has 1000000 rows).
 
-# FILE cnpj_empresas.py
+## FILE cnpj_empresas.py
 
 It is the main file, coordenating the follow activities: 
 
@@ -16,7 +16,7 @@ It is the main file, coordenating the follow activities:
   - Treatment of data(setting column names, filling NULL values, setting column DataTypes...);
   - Send data to a SQL database; 
 
-# FILE auxi_file.py
+## FILE auxi_file.py
 
 It's an auxiliary file which contains the functions and class needed to make cnpj_empresas.py run.
 
@@ -24,7 +24,7 @@ It's an auxiliary file which contains the functions and class needed to make cnp
   - Function download_unzip(): It is responsable for downloading the zip file through an URL and unziping it in the path chose.  
 
 
-# FILE CNPJ_empresas.bat
+## FILE CNPJ_empresas.bat
 
 This file can be used on windows task scheduler to set a periodical execution.
 
